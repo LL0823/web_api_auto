@@ -1,0 +1,9 @@
+users:
+  default:
+    name: John
+    password: 1234567
+    host: https://api.oioweb.cn/api/
+  teacher:
+    name: John_teacher
+    password: 1234567
+    host: https://api.oioweb.cn/api/

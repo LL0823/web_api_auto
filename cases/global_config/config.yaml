@@ -1,0 +1,20 @@
+users:
+  default:
+    name: John
+    password: 1234567a
+    host: https://api.oioweb.cn/api/
+  teacher:
+    name: John_teacher
+    password: 1234567b
+    host: https://api.oioweb.cn/api/
+devices:
+  device_01:
+    device_id: device_01
+    device_name: 设备1
+    device_type: 型号001
+  device_02:
+    device_id: device_02
+    device_name: 设备2
+    device_type: 型号002
+
+
