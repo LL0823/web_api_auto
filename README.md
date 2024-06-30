@@ -23,11 +23,7 @@
 - utils/                        # 工具类
     - common/                   # api和case的基类都在这里面
     - __init__.py
-    - helper/                   # 页面封装的父类，对操作进行了一些二次封装
-      - config.py                 # 对yaml文件中读取的数据方便进行jsonpath读取的帮助类
-      - datas_helper.py           # 用例数据驱动帮助类
-      - driver_helper.py          # 驱动帮助类，还未完成，暂时无用
-      - file_helper.py            # 文件帮助类
+    - helper/                   # 包括文件、登录、response的帮助类
 - .gitignore                    # git配置文件
 - pytest.ini                    # pytest配置文件
 - requirements.txt              # 依赖配置文件
